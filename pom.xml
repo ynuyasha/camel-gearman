@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.tuotempo</groupId>
+    <groupId>com.github.ynuyasha</groupId>
     <artifactId>camel-gearman</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
@@ -117,4 +117,12 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Apache Camel Gearman</name>
+            <url>https://maven.pkg.github.com/ynuyasha/camel-gearman</url>
+        </repository>
+    </distributionManagement>
 </project> 
